@@ -15,9 +15,8 @@ return new class extends Migration
     {
         Schema::create('informasis', function (Blueprint $table) {
             $table->id();
-            $table->string('nama_game');
-            $table->string('keterangan');
-            $table->text('pengertian');
+            $table->string('nama_tanaman');
+            $table->text('keterangan');
             $table->string('gambar');
             $table->timestamps();
         });

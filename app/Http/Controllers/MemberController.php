@@ -3,16 +3,26 @@
 namespace App\Http\Controllers;
 
 use App\Models\Informasi;
-use App\Models\loker;
+
+
 
 class MemberController extends Controller
 {
     public function index()
     {
         //menampilkan semua data dari model loker
-        $loker = loker::all();
         $informasi = informasi::all();
-        return view('welcome', compact('loker', 'informasi'));
+        return view('welcome', compact( 'informasi'));
+    }
+
+    public function langkah(){
+        $informasi = informasi::all();
+        return view('langkah',compact('informasi'));
+    }
+
+    public function tanaman(){
+        $informasi = informasi::all();
+        return view('tanaman',compact('informasi'));
     }
     // public function detail(Loker $loker)
     // {
@@ -22,11 +32,10 @@ class MemberController extends Controller
     //     ]);
 
     // }
-    public function detail($id)
-    {
-        $loker = Loker::find($id);
-        return view('detail', ['loker' => $loker]);
-    }
+    // public function detail($id)
+    // {
+        
+    // }
     // public function artikel(informasi $informasi)
     // {
 

@@ -9,17 +9,13 @@
                         Data informasi
                     </div>
                     <div class="mb-3">
-                            <label class="form-label">Nama Game</label>
-                            <input type="text" class="form-control" name="nama_game" value="{{ $informasi->nama_game }}" readonly>
+                            <label class="form-label">Nama Tanaman</label>
+                            <input type="text" class="form-control" name="nama_tanaman" value="{{ $informasi->nama_tanaman }}" readonly>
                         </div>
                          <div class="card-body">
                         <div class="mb-3">
                             <label class="form-label">Keterangan</label>
                             <input type="text" class="form-control" name="lowongan" value="{{ $informasi->keterangan }}" readonly>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Pengertian</label>
-                            <input type="text" class="form-control" name="keterangan" value="{{ $informasi->pengertian }}" readonly>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Gambar</label>

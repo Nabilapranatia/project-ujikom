@@ -2,60 +2,57 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <title> - Gardening Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <title>FlexStart Bootstrap Template - Index</title>
-  <meta content="" name="description">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <meta content="" name="keywords">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="{{asset('assets/member/https://fonts.googleapis.com')}}">
+    <link rel="preconnect" href="{{asset('assets/member/https://fonts.gstatic.com')}}" crossorigin>
+    <link href="{{asset('assets/member/https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap')}}" rel="stylesheet">  
 
-  <!-- Favicons -->
-  <link href="{{asset('assets/member/assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('assets/member/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="{{asset('assets/member/lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/member/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/member/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="{{asset('assets/member/assets/vendor/aos/aos.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/member/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/member/assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/member/assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/member/assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/member/assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{asset('assets/member/css/bootstrap.min.css')}}" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="{{asset('assets/member/assets/css/style.css')}}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: FlexStart - v1.10.1
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- Template Stylesheet -->
+    <link href="{{asset('assets/member/css/style.css')}}" rel="stylesheet"> 
 </head>
 
 <body>
 
   @include('layouts.partials.member.navbar')
-  <br>
   @yield('content')
   @include('layouts.partials.member.footer')
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="{{asset('assets/member/assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
-  <script src="{{asset('assets/member/assets/vendor/aos/aos.js')}}"></script>
-  <script src="{{asset('assets/member/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{asset('assets/member/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-  <script src="{{asset('assets/member/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-  <script src="{{asset('assets/member/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
-  <script src="{{asset('assets/member/assets/vendor/php-email-form/validate.js')}}"></script>
+  <!-- JavaScript Libraries -->
+  <script src="{{asset('assets/member/https://code.jquery.com/jquery-3.4.1.min.js')}}"></script>
+  <script src="{{asset('assets/member/https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/wow/wow.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/easing/easing.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/waypoints/waypoints.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/counterup/counterup.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/parallax/parallax.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/isotope/isotope.pkgd.min.js')}}"></script>
+  <script src="{{asset('assets/member/lib/lightbox/js/lightbox.min.js')}}"></script>
 
-  <!-- Template Main JS File -->
-  <script src="{{asset('assets/member/assets/js/main.js')}}"></script>
-
+  <!-- Template Javascript -->
+  <script src="{{asset('assets/member/js/main.js')}}"></script>
 </body>
 
 </html>

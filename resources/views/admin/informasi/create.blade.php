@@ -12,14 +12,11 @@
                     <div class="card-body">
                         <form action="{{ route('informasi.store') }}" method="post" enctype="multipart/form-data">
                             @csrf
-                              <div class="mb-3">
-                                <label class="form-label">Nama Game</label>
-                                <select name="nama_game" class="form-control @error('nama_game') is-invalid @enderror">
-                                    <option value="Mobile Legends">Mobile Legends</option>
-                                      <option value="PlayerUnknown's Battlegrounds">PlayerUnknown's Battlegrounds</option>
-                                      <option value="Free Fire">Free Fire</option>
-                                </select>
-                                @error('nama_game')
+                            <div class="mb-3">
+                                <label class="form-label">Nama Tanaman</label>
+                                <input type="text" class="form-control  @error('nama_tanaman') is-invalid @enderror"
+                                    name="nama_tanaman">
+                                @error('nama_tanaman')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
@@ -27,18 +24,9 @@
                             </div>
                              <div class="mb-3">
                                 <label class="form-label">Keterangan</label>
-                                <input type="text" class="form-control  @error('keterangan') is-invalid @enderror"
-                                    name="keterangan">
+                                <textarea type="text" class="form-control  @error('keterangan') is-invalid @enderror"
+                                    name="keterangan"></textarea>
                                 @error('keterangan')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                           <div class="mb-3">
-                                <label class="form-label">Pengertian</label>
-                                <textarea name="pengertian" id="" cols="30" rows="10" class="form-control  @error('keterangan') is-invalid @enderror"></textarea>
-                                @error('pengertian')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

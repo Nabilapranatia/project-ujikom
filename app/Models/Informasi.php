@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Informasi extends Model
 {
     use HasFactory;
-    public $fillable = ['nama_game', 'keterangan', 'pengertian', 'gambar'];
+    public $fillable = ['nama_tanaman', 'keterangan', 'gambar'];
     public $timestamps = true;
 
     public function image()

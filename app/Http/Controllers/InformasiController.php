@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\informasi;
+use App\Models\Informasi;
 use Illuminate\Http\Request;
 
 class InformasiController extends Controller
@@ -45,16 +45,14 @@ class InformasiController extends Controller
     {
         //validasi
         $validated = $request->validate([
-            'nama_game' => 'required|unique:informasis',
+            'nama_tanaman' => 'required|unique:informasis',
             'keterangan' => 'required',
-            'pengertian' => 'required',
             'gambar' => 'required|image|max:2048',
         ]);
 
         $informasi = new informasi();
-        $informasi->nama_game = $request->nama_game;
+        $informasi->nama_tanaman = $request->nama_tanaman;
         $informasi->keterangan = $request->keterangan;
-        $informasi->pengertian = $request->pengertian;
         if ($request->hasFile('gambar')) {
             $image = $request->file('gambar');
             $name = rand(1000, 9999) . $image->getClientOriginalName();
@@ -103,16 +101,14 @@ class InformasiController extends Controller
         // Validasi
         $validated = $request->validate([
 
-            'nama_game' => 'required|max:255',
+            'nama_tanaman' => 'required|max:255',
             'keterangan' => 'required',
-            'pengertian' => 'required',
             'gambar' => '|image|max:2048',
         ]);
 
         $informasi = informasi::findOrFail($id);
-        $informasi->nama_game = $request->nama_game;
+        $informasi->nama_tanaman = $request->nama_tanaman;
         $informasi->keterangan = $request->keterangan;
-        $informasi->pengertian = $request->pengertian;
         if ($request->hasFile('gambar')) {
             $image = $request->file('gambar');
             $name = rand(1000, 9999) . $image->getClientOriginalName();

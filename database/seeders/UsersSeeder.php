@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use Hash;
 
 class UsersSeeder extends Seeder
 {
@@ -15,10 +16,17 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
-        $adminRole = new Role;
-        $adminRole->name = "admin";
-        $adminRole->display_name = "Admin Loker";
-        $adminRole->save();
+        $admin = new \App\Models\User();
+        $admin -> name = "admin";
+        $admin -> email = "admin@gmail.com";
+        $admin -> password = bcrypt("rahasiaa");
+        $admin -> role = "admin";
+        $admin -> save(); 
+        
+        // $adminRole = new Role;
+        // $adminRole->name = "admin";
+        // $adminRole->display_name = "Admin Loker";
+        // $adminRole->save();
 
         // $memberRole = new Role;
         // $memberRole->name = "member";
@@ -26,12 +34,12 @@ class UsersSeeder extends Seeder
         // $memberRole->save();
 
         //membuat sample admin
-        $admin = new User;
-        $admin->name = "Admin Loker";
-        $admin->email = "admin@gmail.com";
-        $admin->password = bcrypt("rahasia");
-        $admin->save();
-        $admin->attachRole($adminRole);
+        // $admin = new User;
+        // $admin->name = "Admin Loker";
+        // $admin->email = "admin@gmail.com";
+        // $admin->password = ("rahasiaa");
+        // $admin->save();
+        // $admin->attachRole($adminRole);
 
         //membuat sample member
         // $member = new User;
