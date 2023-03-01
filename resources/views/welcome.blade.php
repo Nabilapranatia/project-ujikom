@@ -282,7 +282,7 @@
                   <div class="portfolio-inner rounded">
                       <img class="img-fluid" src="images/bunga1.jpg" alt="">
                       <div class="portfolio-text">
-                          <h4 class="text-white mb-4">Bunga Anggrek</h4>
+                          <h4 class="text-white mb-4"> Tanaman Bunga Anggrek</h4>
                           <div class="d-flex">
                               <a class="btn btn-lg-square rounded-circle mx-2" href="images/bunga1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                               {{-- <a class="btn btn-lg-square rounded-circle mx-2" href=""></a> --}}
@@ -306,9 +306,9 @@
                   <div class="portfolio-inner rounded">
                       <img class="img-fluid" src="images/bunga3.jpg" alt="" >
                       <div class="portfolio-text">
-                          <h4 class="text-white mb-4">Bunga Teratai</h4>
+                          <h4 class="text-white mb-4">Tanaman Sirih Gading</h4>
                           <div class="d-flex">
-                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/bunga3.jfif" data-lightbox="portfolio"></a>
+                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/bunga3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a></a>
                               {{-- <a class="btn btn-lg-square rounded-circle mx-2" href=""></a> --}}
                           </div>
                       </div>
@@ -316,11 +316,11 @@
               </div>
               <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
                   <div class="portfolio-inner rounded">
-                      <img class="img-fluid" src="images/m3.jfif" alt="">
+                      <img class="img-fluid" src="images/bunga4.jpg" alt="">
                       <div class="portfolio-text">
-                          <h4 class="text-white mb-4">Garden Maintenance</h4>
+                          <h4 class="text-white mb-4">Bunga Matahari</h4>
                           <div class="d-flex">
-                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/m3.jfif" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/bunga4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                               {{-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> --}}
                           </div>
                       </div>
@@ -328,11 +328,11 @@
               </div>
               <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
                   <div class="portfolio-inner rounded">
-                      <img class="img-fluid" src="images/m4.jpg" alt="" >
+                      <img class="img-fluid" src="images/bunga5.jpg" alt="" >
                       <div class="portfolio-text">
-                          <h4 class="text-white mb-4">Green Technology</h4>
+                          <h4 class="text-white mb-4">Tanaman Janda Bolong</h4>
                           <div class="d-flex">
-                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/m4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/bunga5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                               {{-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> --}}
                           </div>
                       </div>
@@ -340,11 +340,11 @@
               </div>
               <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
                   <div class="portfolio-inner rounded">
-                      <img class="img-fluid" src="images/m5.jfif" alt="">
+                      <img class="img-fluid" src="images/bunga6.jpg" alt="">
                       <div class="portfolio-text">
-                          <h4 class="text-white mb-4">Urban Gardening</h4>
+                          <h4 class="text-white mb-4">Tanaman Peace Lily</h4>
                           <div class="d-flex">
-                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/m5.jfif" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                              <a class="btn btn-lg-square rounded-circle mx-2" href="images/bunga6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                               {{-- <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a> --}}
                           </div>
                       </div>
@@ -375,7 +375,6 @@
                         </div>
                         <h4 class="mb-3">Landscaping</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -390,7 +389,6 @@
                         </div>
                         <h4 class="mb-3">Pruning plants</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -405,7 +403,6 @@
                         </div>
                         <h4 class="mb-3">Irrigation & Drainage</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -420,7 +417,6 @@
                         </div>
                         <h4 class="mb-3">Garden Maintenance </h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -435,7 +431,6 @@
                         </div>
                         <h4 class="mb-3">Green Technology</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -450,7 +445,7 @@
                         </div>
                         <h4 class="mb-3">Urban Gardening</h4>
                         <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                        <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+   
                     </div>
                 </div>
             </div>

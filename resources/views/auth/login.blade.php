@@ -8,13 +8,7 @@
 <link rel="icon" type="image/png" href="{{ asset('assets/material-dashboard-master/material-dashboard-master/assets/img/favicon.png')}}">
 
 <title>
-  
    Material Dashboard 2  by Creative Tim
-  
-
-  
-
-  
 </title>
 
 
@@ -33,18 +27,12 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
 <!-- CSS Files -->
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
 
 <link id="pagestyle" href="{{ asset('assets/material-dashboard-master/material-dashboard-master/assets/css/material-dashboard.css')}}" rel="stylesheet" />
-
-
-
-
-
   </head>
-
-
   <body class="g-sidenav-show  bg-gray-100">
 <div class="container"><br><br><br><br><br><br><br>
     <div class="row justify-content-center">
@@ -102,7 +90,7 @@
         </div>
     </div>
 </div>
-<script src="{{asset('assets/material-dashboard-master/material-dashboard-master/assets/js/core/popper.min.js')}}" ></script>
+<!-- <script src="{{asset('assets/material-dashboard-master/material-dashboard-master/assets/js/core/popper.min.js')}}" ></script>
 <script src="{{asset('assets/material-dashboard-master/material-dashboard-master/assets/js/core/bootstrap.min.js')}}" ></script>
 <script src="{{asset('assets/material-dashboard-master/material-dashboard-master/assets/js/plugins/perfect-scrollbar.min.js')}}" ></script>
 <script src="{{asset('assets/material-dashboard-master/material-dashboard-master/assets/js/plugins/smooth-scrollbar.min.js')}}" ></script>
@@ -115,7 +103,7 @@
     Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
   }
 </script>
-<!-- Github buttons -->
+ <-- Github buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
 <script src="{{asset('assets/material-dashboard-master/material-dashboard-master/assets/js/material-dashboard-master/material-dashboard-master.min.js')}}"></script>
